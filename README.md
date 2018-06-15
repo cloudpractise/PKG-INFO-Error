@@ -27,8 +27,9 @@ Traceback (most recent call last):
     raise KeyError("No metadata except PKG-INFO is available")
 KeyError: 'No metadata except PKG-INFO is available  
 ----- 
-To fix the issue, just simplly type the following command in the MAC CLI termical: 
+To fix the issue, just type the following command at the MAC CLI termical: 
 $ brew install python2 --framework --universal
 $ pip install --upgrade pip setuptools
 
-Then everything is ok and have fun!
+Then everything should be ok and have fun!
+The point is the "--framework", with whichcompile a Framework-style Python build, rather than a UNIX-style build.
