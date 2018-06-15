@@ -1,4 +1,4 @@
-# PKG-INFO-Error
+# Fix the issue of python PKG-INFO error
 Fix the issue of "Python PIP KeyError with No metadata except PKG-INFO is available"
 
 At MAC OSX 10.12.6/Python 2.7.10/PIP 10.0.1, when using "pip any_package.py install" and/or "pip install any_package", the terminal CLI says:
